@@ -10,13 +10,13 @@ body {
 
 @font-face {
     font-family: "Outfit";
-    src: url(/HTML/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(Outfit-VariableFont_wght.ttf);
     font-weight: 100 900;
 }
 
 @font-face {
     font-family: "Serif1";
-    src: url(/HTML/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(YoungSerif-Regular.ttf);
     font-weight: 100 900;
 }
 
