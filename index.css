@@ -1,0 +1,197 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 221, 203);
+    margin: 0;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(/HTML/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "Serif1";
+    src: url(/HTML/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 100 900;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border-radius: 1.3rem;
+}
+
+.omlette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 55%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.omlettka {
+    font-family: Serif1;
+}
+
+.easy {
+    font-family: Outfit;
+    color:rgb(115, 119, 122)
+}
+
+.PreparationTime {
+    font-family: Outfit;
+    color: #70202A;
+    padding-left: 1rem;
+    margin-bottom: -1rem;
+}
+
+.omletteIMG {
+    width: 105%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.simple {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.preparation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(330, 100%, 98%);
+    width: 95%;
+    border-radius: 1rem;
+}
+
+.UnderPrep {
+    font-family: Outfit;
+    font-weight: 400;
+    color: rgb(115, 119, 122);
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingri {
+    font-family: Serif1;
+    color: #70202A;
+}
+
+.IngriP {
+    font-family: Outfit;
+    font-weight: 400;
+    color: rgb(115, 119, 122);
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.instra {
+    font-family: Serif1;
+    font-weight: 400;
+    color: #70202A;   
+}
+
+
+.instraOL {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.InstraLI {
+    font-family: Serif1;
+    color: rgb(115, 119, 122);
+    font-family: Outfit;
+}
+
+.InstraLI b {
+    color: rgb(59, 57, 57);
+}
+
+.nutritions {
+    display: flex;
+    flex-direction: column;
+    font-family: Outfit;
+}
+
+.nutritions {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    font-family: Outfit;
+}
+
+.Nutri {
+    font-family: Serif1;
+    font-weight: 400;
+    color: #70202A;
+}
+
+.nutrition-description {
+    color: rgb(59, 57, 57);
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0.7rem 0;
+    box-sizing: border-box;
+}
+
+.nutrition-row span {
+    color: rgb(59, 57, 57);
+}
+
+.nutrition-row b {
+    color: #70202A;
+    margin-right: 35%;
+}
+
+hr {
+    margin-right: auto;
+    margin-left: 0;
+    width: 95%;
+    border: none;
+    height: 0.005rem;
+    background-color: rgb(59, 57, 57);
+}
+
+ol li::marker {
+    color:#70202A;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+
+
+}
+
+
